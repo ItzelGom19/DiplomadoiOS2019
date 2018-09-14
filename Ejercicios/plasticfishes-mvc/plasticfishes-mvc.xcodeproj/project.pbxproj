@@ -61,7 +61,9 @@
 		9BA61D44214C6CC20078BEFF = {
 			isa = PBXGroup;
 			children = (
-				9BA61D4F214C6CC20078BEFF /* plasticfishes-mvc */,
+				9BEA4051214C71410056AC5A /* controllers */,
+				9BEA4050214C712D0056AC5A /* models */,
+				9BA61D4F214C6CC20078BEFF /* views */,
 				9BA61D66214C6CC30078BEFF /* plasticfishes-mvcTests */,
 				9BA61D4E214C6CC20078BEFF /* Products */,
 			);
@@ -76,18 +78,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9BA61D4F214C6CC20078BEFF /* plasticfishes-mvc */ = {
+		9BA61D4F214C6CC20078BEFF /* views */ = {
 			isa = PBXGroup;
 			children = (
 				9BA61D50214C6CC20078BEFF /* AppDelegate.swift */,
-				9BA61D52214C6CC20078BEFF /* MasterViewController.swift */,
-				9BA61D54214C6CC20078BEFF /* DetailViewController.swift */,
-				9BA61D56214C6CC20078BEFF /* Main.storyboard */,
 				9BA61D59214C6CC30078BEFF /* Assets.xcassets */,
-				9BA61D5B214C6CC30078BEFF /* LaunchScreen.storyboard */,
 				9BA61D5E214C6CC30078BEFF /* Info.plist */,
+				9BA61D5B214C6CC30078BEFF /* LaunchScreen.storyboard */,
+				9BA61D56214C6CC20078BEFF /* Main.storyboard */,
 			);
-			path = "plasticfishes-mvc";
+			path = views;
 			sourceTree = "<group>";
 		};
 		9BA61D66214C6CC30078BEFF /* plasticfishes-mvcTests */ = {
@@ -97,6 +97,22 @@
 				9BA61D69214C6CC30078BEFF /* Info.plist */,
 			);
 			path = "plasticfishes-mvcTests";
+			sourceTree = "<group>";
+		};
+		9BEA4050214C712D0056AC5A /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		9BEA4051214C71410056AC5A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BA61D52214C6CC20078BEFF /* MasterViewController.swift */,
+				9BA61D54214C6CC20078BEFF /* DetailViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
