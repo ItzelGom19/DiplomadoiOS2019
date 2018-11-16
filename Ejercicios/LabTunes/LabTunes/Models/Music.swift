@@ -11,7 +11,7 @@ import Foundation
 class Music{
     static var urlSession = URLSession(configuration: .default)
     
-    static func fetchSongs(songName: String = "TheBeatles", onSuccess: @escaping ([Song]) -> Void){
+    static func fetchSongs(songName: String = "Queen", onSuccess: @escaping ([Song]) -> Void){
         let url = URL(string: "https://itunes.apple.com/search?media=music&entity=song&term=\(songName)")
         
         let dataTask = urlSession.dataTask(with: url!) { data, response, error
